@@ -1,0 +1,44 @@
+{
+  "name": "systemjs-plugin-ng-lazy-loader",
+  "version": "0.0.1",
+  "main": "dist/plugin.js",
+  "keywords": [
+    "systemjs",
+    "angularjs",
+    "angular",
+    "lazy-module",
+    "lazy",
+    "module",
+    "bundle"
+  ],
+  "author": "smac89",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/acorn": "^4.0.2",
+    "@types/gulp": "^3.8.33",
+    "@types/gulp-inject": "0.0.32",
+    "@types/uglify-js": "^2.6.29",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "jspm": "^0.16.53",
+    "plugin-typescript": "^7.0.6",
+    "systemjs": "^0.20.14",
+    "typescript": "^2.4.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "acorn": "npm:acorn@^5.1.1",
+      "ts": "github:frankwallis/plugin-typescript@^7.0.6",
+      "typescript": "npm:typescript@^2.4.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "ts-runtime": "npm:babel-runtime@^5.8.24"
+    }
+  }
+}
